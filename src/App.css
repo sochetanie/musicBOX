@@ -1,0 +1,241 @@
+body {
+  /*background-image: url('https://cdn.suwalls.com/wallpapers/abstract/colorful-waves-39258-3840x2160.jpg');*/
+  background-image: url('https://cdn.wallpapersafari.com/47/69/KRpZo9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  padding: 2%;
+}
+
+.title {
+  font-size: 50px;
+  font-family: 'Michroma', sans-serif;
+  margin-top: 0.7%;
+  padding-bottom: 2%;
+}
+
+.show-grid p {
+  font-family: 'Michroma', sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+}
+
+.artistInfo {
+  text-align: left;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+}
+.artistImg {
+  border: 2px solid white;
+  border-radius: 30px;
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+}
+.artistName {
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: .80;
+  bottom: 4%;
+  width: 165px;
+  position: absolute;
+}
+.artistName p {
+  font-family: 'Michroma', sans-serif;
+  font-size: 15px;
+}
+
+.col.topTracksUSA p {
+  font-family: 'Michroma', sans-serif;
+  font-size: 15px;
+  width: 200px;
+}
+
+.topTracksImage {
+  display: inline-block;
+}
+
+.profile-right {
+  float: right;
+  display: inline-block;
+  text-align: center; 
+  width: 47%;
+  padding-right: -3%;
+  margin-right: -3%;
+}
+
+.profile-left{
+  display: inline-block;
+  text-align: center; 
+  width: 53%;
+  float: left;
+  padding-left: -6%;
+  margin-left: -6%;
+}
+
+p {
+  margin: 0 0 1px 0;
+}
+
+.image {
+  margin: 0 0 3% 0; 
+}
+
+.caption {
+  margin: 0;
+  position: relative;
+}
+
+.caption > p:nth-child(2) {
+  font-family: 'Michroma', sans-serif;
+  font-size: 15px;
+  color: black;
+  text-shadow:
+    -0.7px -0.7px 0 red,
+    0.7px 0.7px 0 red; 
+}
+
+.image {
+  position: relative;
+}
+
+.topTracksUSA, .topFranceUSA {
+  position: relative;
+  display: inline-block;
+  margin: .8%;
+}
+
+.albumName {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  opacity: .8;
+  font-size: 14px;
+  bottom: 0;
+  width: 181px;
+  position: absolute;
+}
+
+.albums {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 3.15%;
+}
+
+.albumImg {
+  border: 3px solid white;
+}
+
+.trackName {
+  text-align: left;
+}
+
+.topTracks {
+  text-align: left;
+  position: relative;
+}
+
+.topTracks > h4 {
+  font-family: serif;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.left-half, .right-half {
+  margin-bottom: 1.5%;
+}
+
+.left-half h2 {
+  margin-bottom: 7%;
+}
+
+.right-half h2 {
+  margin-bottom: 4%;
+}
+
+.left-half {
+  float: left;
+  width: 30%;
+  text-align: left; 
+}
+
+.right-half {
+  float: right;
+  width: 70%;
+  display: inline-block;
+  text-align: center; 
+}
+
+.summary {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 17px;
+  font-family: 'Lora', serif;
+}
+
+.show-grid h2 {
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+  text-shadow:
+    -0.7px -0.7px 0 red,
+    0.7px 0.7px 0 red; 
+  font-size: 26px;
+}
+
+/*HOVER*/
+.trackName:hover, .albumTrackName:hover {
+  color: white;
+  text-decoration: none;
+  text-decoration: inherit;
+  transform: scale(1.1);
+  text-shadow:
+    -0.7px -0.7px 0 red,
+    0.7px 0.7px 0 red; 
+}
+.artistImg:hover {
+  transform: scale(1.1);
+}
+.albumImg:hover {
+  transform: scale(1.1);
+}
+.col.topTracksUSA:hover {
+  transform: scale(1.12);
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.title:hover {
+  transform: scale(1.2)
+}
+
+.popover-content {
+  background-color: black;
+}
+
+.navbar {
+  background-color:transparent;
+  margin: 0;
+  padding: 0;
+}
